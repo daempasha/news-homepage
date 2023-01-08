@@ -6,7 +6,7 @@ const NewStories: React.FC<NewStoriesProps> = ({ data }): React.ReactElement => 
         {data.map((row, index) => (
             <>
                 <div className="text-white my-5 md:my-10">
-                    <h2 className="text-xl font-bold">{row.title}</h2>
+                    <a href="#" className="text-xl font-bold cursor-pointer hover:text-orange-500">{row.title}</a>
                     <p className="text-sm my-2 text-gray-400">{row.description}</p>
 
                 </div>
