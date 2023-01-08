@@ -6,7 +6,7 @@ import NewStories from "@components/NewStories"
 function App() {
 
   return (
-    <div className="App my-10 mx-10 xl:mx-auto max-w-7xl">
+    <div className="App my-10 mx-4 xl:mx-auto max-w-7xl">
       <Navbar />
       <div className="flex flex-col md:flex-row gap-5">
         <MainStory {...data} />
