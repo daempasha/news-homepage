@@ -3,7 +3,7 @@ import HamburgerMenu from "./HamburgerMenu";
 import Links from "./Links";
 
 const Navbar = () => {
-    return <div className="flex items-baseline justify-between ">
+    return <div className="flex items-baseline justify-between my-10 ">
         <img src={Logo} alt="Logo" />
 
 

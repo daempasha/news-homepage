@@ -1,13 +1,17 @@
 import MainStory from "@components/MainStory"
 import data from "@components/MainStory/data"
 import Navbar from "@components/Navbar"
+import NewStories from "@components/NewStories"
 
 function App() {
 
   return (
     <div className="App my-10 mx-10 xl:mx-auto max-w-7xl">
       <Navbar />
-      <MainStory {...data} />
+      <div className="flex flex-col md:flex-row gap-5">
+        <MainStory {...data} />
+        <NewStories />
+      </div>
     </div>
   )
 }
