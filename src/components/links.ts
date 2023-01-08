@@ -1,0 +1,1 @@
+export default ["Home", "New", "Popular", "Trending", "Categories"]
