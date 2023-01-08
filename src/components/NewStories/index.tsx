@@ -1,6 +1,6 @@
-import data from "./data";
+import { NewStoriesProps } from "./types";
 
-const NewStories = () => {
+const NewStories: React.FC<NewStoriesProps> = ({ data }): React.ReactElement => {
     return <div className="flex-grow flex-shrink-0 md:w-96 bg-black p-5">
         <h1 className="text-4xl font-bold text-orange-300 mb-5">New</h1>
         {data.map((row, index) => (

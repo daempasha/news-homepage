@@ -6,7 +6,7 @@ const MainStory: React.FC<MainStoryProps> = ({ title, image, description }) => (
         <div className="image md:col-span-2">
             <img src={image} alt={title} />
         </div>
-        <div className="title text-5xl font-bold row-span-2">{title}</div>
+        <div className="title text-xl md:text-5xl lg:text-7xl font-bold row-span-2">{title}</div>
         <div className="description text-gray-800">{description}</div>
         <div className="button"><Button children="READ MORE" /></div>
     </div>
