@@ -1,0 +1,128 @@
+// Vitest Snapshot v1
+
+exports[`<NewStories /> > renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="grid items-center grid-flow-dense grid-cols-12 gap-5 my-5 mx-2"
+      >
+        <div
+          class="image col-span-5 md:col-span-5  lg:col-span-3  "
+        >
+          <img
+            alt="Reviving Retro PCs"
+            class="h-32"
+            src="/src/assets/image-retro-pcs.jpg"
+          />
+        </div>
+        <div
+          class="col-span-7 md:col-span-7 lg:col-span-9"
+        >
+          <h1
+            class="text-3xl text-gray-300 font-bold "
+          >
+            01
+          </h1>
+          <a
+            class=" font-bold text-lg lg:text-xl my-2 cursor-pointer hover:text-orange-500"
+          >
+            Reviving Retro PCs
+          </a>
+          <p
+            class="text-sm lg:text-base text-gray-600"
+          >
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="grid items-center grid-flow-dense grid-cols-12 gap-5 my-5 mx-2"
+    >
+      <div
+        class="image col-span-5 md:col-span-5  lg:col-span-3  "
+      >
+        <img
+          alt="Reviving Retro PCs"
+          class="h-32"
+          src="/src/assets/image-retro-pcs.jpg"
+        />
+      </div>
+      <div
+        class="col-span-7 md:col-span-7 lg:col-span-9"
+      >
+        <h1
+          class="text-3xl text-gray-300 font-bold "
+        >
+          01
+        </h1>
+        <a
+          class=" font-bold text-lg lg:text-xl my-2 cursor-pointer hover:text-orange-500"
+        >
+          Reviving Retro PCs
+        </a>
+        <p
+          class="text-sm lg:text-base text-gray-600"
+        >
+          What happens when old PCs are given modern upgrades?
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

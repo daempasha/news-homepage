@@ -2,15 +2,16 @@ import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import MainStory from '.';
 import { resizeWindow } from '@helper';
+import Navbar from '.';
 
 
 
 
 
-describe('<MainStory />', () => {
+describe('<Navbar />', () => {
     it('renders correctly', () => {
-        const mainStory = (<MainStory title="Article title" description="Article description" image={""} />)
-        expect(mainStory).toMatchSnapshot()
-
+        const navbar = render(<Navbar />)
+        expect(navbar).toMatchSnapshot()
     });
+
 });

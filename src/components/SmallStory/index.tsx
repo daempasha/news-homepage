@@ -1,4 +1,3 @@
-import { Story } from "@types";
 import { SmallStoryProps } from "./types";
 
 const SmallStory: React.FC<SmallStoryProps> = ({ index, title, description, image }): React.ReactElement => {

@@ -5,7 +5,7 @@ import { Menu } from '@headlessui/react'
 
 const HamburgerMenu = () => {
     return (
-        <div className="md:hidden" >
+        <div className="md:hidden" data-testid="hamburger" >
             <Menu as="div"  >
                 <Menu.Button >
                     {({ open }) => open ? (
