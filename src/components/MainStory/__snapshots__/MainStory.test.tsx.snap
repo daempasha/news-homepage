@@ -1,0 +1,17 @@
+// Vitest Snapshot v1
+
+exports[`<MainStory /> > renders correctly on desktop 1`] = `
+<MainStory
+  description="Article description"
+  image=""
+  title="Article title"
+/>
+`;
+
+exports[`<MainStory /> > renders correctly on mobile 1`] = `
+<MainStory
+  description="Article description mobile"
+  image=""
+  title="Article title - mobile"
+/>
+`;
